@@ -6,6 +6,11 @@ npm install bootstrap@5.2.3
 
 En package.json modificamos node por nodemon
 
+git
+
+https://www.freecodecamp.org/espanol/news/subir-a-github-lo-suficientemente-simple-para-poetas/
+
+
 
 Formulario de contacto e recepcion de mail
 
