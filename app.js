@@ -33,7 +33,7 @@ app.use('/contacto', contactoRouter);
 
 
 
-//linea para consfirgurar el puerto//
+//linea para configurar el puerto//
 /*app.listen(80)*/
 
 
