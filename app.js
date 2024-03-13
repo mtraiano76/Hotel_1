@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+require("dotenv").config();
+var session = require('express-session');
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var nuestros_serviciosRouter = require('./routes/nuestros_servicios');
@@ -27,6 +30,11 @@ app.use('/users', usersRouter);
 app.use('/nuestros_servicios', nuestros_serviciosRouter);
 app.use('/galeria', galeriaRouter);
 app.use('/contacto', contactoRouter);
+
+
+
+//linea para consfirgurar el puerto//
+/*app.listen(80)*/
 
 
 // catch 404 and forward to error handler
